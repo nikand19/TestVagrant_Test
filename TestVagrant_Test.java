@@ -35,7 +35,7 @@ public class Bucket {
         int[] gst = {18, 12, 28, 0};
         int[] quan = {1, 4, 3, 2};
 
-        System.out.println("Maximum GST product is: " + e.maximumGSTProduct(product, price, gst, quan));
-        System.out.println("Total Amount Paid to Shopkeeper is: " + e.totalAmount(price, gst, quan));
+        System.out.println("Maximum GST product: " + e.maximumGSTProduct(product, price, gst, quan));
+        System.out.println("Total Amount Paid: " + e.totalAmount(price, gst, quan));
     }
 }
